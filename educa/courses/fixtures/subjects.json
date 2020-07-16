@@ -1,0 +1,63 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "sss",
+    "slug": "sss"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 2,
+  "fields": {
+    "title": "kkksd",
+    "slug": "kkksd"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 3,
+  "fields": {
+    "title": "sdsdsd",
+    "slug": "sdsdsd"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 4,
+  "fields": {
+    "title": "sdsae",
+    "slug": "sdsae"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 5,
+  "fields": {
+    "title": "tsdh",
+    "slug": "tsdh"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 1,
+    "title": "dsds",
+    "slug": "dsds",
+    "overview": "dsdsdsd",
+    "created": "2020-07-06T08:45:27.593Z"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 1,
+  "fields": {
+    "course": 1,
+    "title": "sdsddsds",
+    "description": "asas\r\nsdsd\r\nsdds"
+  }
+}
+]
