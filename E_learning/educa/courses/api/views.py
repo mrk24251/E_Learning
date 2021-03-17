@@ -23,6 +23,10 @@ class SubjectDetailView(generics.RetrieveAPIView):
     queryset = Subject.objects.all()
     serializer_class = SubjectSerializer
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f999a098f1f086ef0474b08369eedc3c062d5cc7
 class CourseViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = Course.objects.all()
     serializer_class = CourseSerializer
